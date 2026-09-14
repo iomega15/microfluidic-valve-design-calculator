@@ -41,8 +41,14 @@ Each tagged release is archived to Zenodo, which issues a DOI per version plus a
 DOI that always resolves to the newest version. **Cite the concept DOI**, so that a later
 fix reaches anyone following the reference.
 
-[PLACEHOLDER: paper citation once published]
-[PLACEHOLDER: Zenodo concept DOI once the first release is archived]
+H. A. M. Nguyen, Q. A. Vuong, N. D. Q. Nguyen, D. J. Martins Cruz, B. Almanzar, A. Goz,
+M. Khanna, R. Jitender, A. Kinney, S. Chapek, M. Volosov and R. Voronov, *A geometry-first
+design framework and interactive design tool for 3D-printed microfluidic valves using new
+photopolymer resins*, engrXiv preprint, 2026, DOI: [10.31224/8053](https://doi.org/10.31224/8053)
+(under review at *Lab on a Chip*; the journal reference will replace this line on publication).
+
+This deposit: DOI [10.5281/zenodo.21984175](https://doi.org/10.5281/zenodo.21984175) -- the
+concept DOI, which always resolves to the newest release.
 
 ## Reporting problems
 
