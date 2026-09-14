@@ -8,19 +8,19 @@ no network access, no dependencies.
 
 ## What it does
 
-The framework reduces a valve's material behaviour to a single empirical constant, the
+The framework reduces a valve's material behavior to a single empirical constant, the
 **membrane deflection coefficient kappa** -- the dimensionless sagitta-to-width ratio s/C,
 measured on your own resin and printer. Given kappa and your channel geometry, the tool
 returns the membrane width and the spherical valve-seat radius and depth needed for the
 membrane to seal against the seat.
 
 Inputs (`g` open lumen, `kappa`, `W` channel width, `H_d` seat height, `n` exponent) can be
-entered in millimetres or, with **quantized units** enabled, directly in printer pixels and
+entered in millimeters or, with **quantized units** enabled, directly in printer pixels and
 print layers, so the numbers match what you type into a slicer or into the device
 generators. Outputs are `C` (required membrane width), `R` (radius of curvature), `s`
 (sagitta), `d`, and `H_c` (total channel height), with a live cross-sectional diagram.
 
-Two constitutive models are provided: the linear default `s = kappa*C`, and a generalised
+Two constitutive models are provided: the linear default `s = kappa*C`, and a generalized
 power law `s = kappa*C^n` whose exponent defaults to n = 4/3, the stretching-dominated
 limit of large-deflection membrane mechanics; n = 1 recovers the linear model. A built-in
 fitting utility extracts kappa (and optionally n) from your own deflection measurements,
@@ -55,6 +55,6 @@ concept DOI, which always resolves to the newest release.
 Please open an issue. Fixes ship as a new tagged release, archived by Zenodo under the same
 concept DOI.
 
-## Licence
+## License
 
 MIT -- see LICENSE.
